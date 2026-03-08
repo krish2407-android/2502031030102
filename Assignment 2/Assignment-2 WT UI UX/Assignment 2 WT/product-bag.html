@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEasy - Travel Backpack</title>
+    <link rel="stylesheet" href="product-detail.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="logo">ShopEasy</div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html" class="btn-primary">Sign Up</a>
+        </nav>
+    </header>
+
+    <main class="detail-main">
+        <section class="product-layout">
+            <div class="product-image">
+                <img src="img/bag.jpg" alt="Travel Backpack" />
+            </div>
+            <div class="product-info">
+                <p class="category">Accessories</p>
+                <h1>Travel Backpack</h1>
+                <p class="price">₹1,299</p>
+                <p class="description">
+                    Durable travel backpack with multiple compartments for laptop, books and accessories.
+                    Great for college, work and weekend trips.
+                </p>
+                <ul class="highlights">
+                    <li>Padded laptop sleeve</li>
+                    <li>Water resistant material</li>
+                    <li>Comfortable shoulder straps</li>
+                </ul>
+                <form action="checkout.html" class="purchase-form">
+                    <label for="quantity">Quantity</label>
+                    <select id="quantity" name="quantity" required>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button type="submit" class="btn-primary btn-full">Buy Now</button>
+                </form>
+                <a href="products.html" class="back-link">← Back to products</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 ShopEasy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
